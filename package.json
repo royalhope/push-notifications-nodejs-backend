@@ -1,0 +1,25 @@
+{
+  "name": "OneSignal",
+  "version": "1.0.0",
+  "description": "A push notification app which uses NodeJS to send them.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "react-scripts build"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "Umang Shahi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "react-scripts": "^4.0.1",
+    "web-push": "^3.4.4"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
